@@ -7,8 +7,8 @@ $$
 I(s) = \sum_{i} \sum_{j} f_i(s) * f_j(s) * \frac{sin(s*r_{ij})}{s*r_{ij}}
 $$
 
-where $ r_{ij} = \left| \vec{r_i} - \vec{r_j} \right| $ between atoms $i$ and $j$
-and $ f_i(s) $, $ f_j(s) $ are atomic structure factors for atoms $i$ and $j$
+where $r_{ij} = \left| \vec{r_i} - \vec{r_j} \right|$ is distance between atoms $i$ and $j$
+and $f_i(s)$, $f_j(s)$ are atomic structure factors for atoms $i$ and $j$
 
 
 For SAXS mode **gmx scattering** uses Cromer-Mann approximation for atomic structure factors
