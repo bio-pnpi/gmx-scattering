@@ -20,6 +20,8 @@ identifiers:
     value: 'https://gitlab.com/bio-pnpi/gmx-scattering'
   - type: url
     value: 'https://github.com/bio-pnpi/gmx-scattering'
+  - type: doi
+    valie: '10.5281/zenodo.7866186'
 repository-code: 'https://gitlab.com/bio-pnpi/gmx-scattering'
 abstract: >-
   This is implementation of gmx scattering as a standalone
