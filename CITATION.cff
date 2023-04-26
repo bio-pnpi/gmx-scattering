@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: gmx-scattering
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alexey
+    family-names: Shvetsov
+    email: shvetsov_av@pnpi.nrcki.ru
+    affiliation: >-
+      Petersburg Nuclear Physics Institute named by
+      B.P.Konstantinov of NRC «Kurchatov Institute»
+    orcid: 'https://orcid.org/0000-0003-1140-5751'
+identifiers:
+  - type: url
+    value: 'https://gitlab.com/bio-pnpi/gmx-scattering'
+  - type: url
+    value: 'https://github.com/bio-pnpi/gmx-scattering'
+repository-code: 'https://gitlab.com/bio-pnpi/gmx-scattering'
+abstract: >-
+  This is implementation of gmx scattering as a standalone
+  module for gromacs versions prior to 2024 that is aimed to
+  replace old modules gmx sans and gmx saxs modules. Module
+  gmx scattering uses Debye method to calculate SANS and
+  SAXS spectra via pair distance distribution histogram
+keywords:
+  - GROMACS
+  - SANS
+  - SAXS
+license: LGPL-2.1-or-later
